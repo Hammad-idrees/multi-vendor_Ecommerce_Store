@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius) 0 0 var(--radius);
+    outline: none;
+    font-size: 1rem;
+}
+
+.input:focus {
+    border-color: var(--accent);
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary);
+    color: white;
+    border: 1px solid var(--secondary);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: var(--primary);
+}
